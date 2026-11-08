@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sales Intelligence Dashboard
 
 An interactive dashboard that analyses sales data, highlights trends, and writes plain-English business insights.
@@ -91,3 +92,7 @@ and the number-grounding check.
 2. Add a simple forecast (moving average first, then a time-series model) and compare against held-out months.
 3. Evaluate insight quality: have a few people rate usefulness, and track how often the grounding check fires.
 4. Later: scheduled weekly report (n8n), PostgreSQL instead of CSV, authentication.
+=======
+# sales-intelligence-dashboard
+An AI-powered sales intelligence dashboard built with Python, Pandas, Streamlit, and LLMs.
+>>>>>>> 792fc22d4e7627c943b6100a13e282764ee21d53
