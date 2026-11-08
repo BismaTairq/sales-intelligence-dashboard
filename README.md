@@ -53,13 +53,6 @@ python generate_sample_data.py      # optional; the app creates it if missing
 streamlit run app.py
 ```
 
-Optional AI insights: paste an Anthropic API key in the sidebar, or set it before launching:
-
-```bash
-# Windows PowerShell:  $env:ANTHROPIC_API_KEY="your-key"
-# macOS/Linux:         export ANTHROPIC_API_KEY="your-key"
-```
-
 ## Using the real Superstore dataset
 
 Download "Superstore Sales" from Kaggle, then upload the CSV in the sidebar. Required columns:
@@ -77,7 +70,7 @@ and the number-grounding check.
 
 ## Limitations
 
-- Prototype on synthetic data; no authentication, no real-time data, single user.
+- Prototype have on synthetic data; no authentication, no real-time data, single user.
 - Insights need human review. The grounding check only confirms a number exists in the metrics (within rounding);
   it does not verify that the sentence around it is correct.
 - The outlier flag is a simple z-score on month-over-month growth; it can flag normal seasonal peaks.
